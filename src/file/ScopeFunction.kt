@@ -1,5 +1,7 @@
 package src
 
+import src.`class`.Book
+
 fun main() {
 
     var price = 5000
@@ -34,10 +36,3 @@ fun main() {
 
     //also는 apply대신 let처럼 사용 가능하다.
 }
-
-class Book(var name: String, var price: Int) {
-    fun discount() {
-        price -= 1000
-    }
-}
-
